@@ -1,7 +1,7 @@
 {
     "name": "grunt-git-remote-tag",
     "description": "Creates a tag in the provided repository folder and push it to an specific remote.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "https://github.com/Ideame/grunt-git-remote-tag",
     "author": {
         "name": "Juan Pablo Garcia",

@@ -21,8 +21,8 @@ grunt.loadNpmTasks('grunt-git-remote-tag');
 ## Overview
 
 Inside your `Gruntfile.js` file add a section named `gitRemoteTag`. This section specifies the
-options to detect which files have changed in last commit and decide whether to run the specified task or download
-the a file in a specific location.
+tag's name a message an the remote where to push the tag. You must also provide a **src**
+indicating the location of your local git repository.
 
 ## Config Example
 
