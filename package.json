@@ -1,0 +1,27 @@
+{
+    "name": "grunt-git-remote-tag",
+    "description": "Creates a tag in the provided repository folder and push it to an specific remote.",
+    "version": "0.0.1",
+    "homepage": "https://github.com/Ideame/grunt-git-remote-tag",
+    "author": {
+        "name": "Juan Pablo Garcia",
+        "url": "http://github.com/jpgarcia/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Ideame/grunt-git-remote-tag.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Ideame/grunt-git-remote-tag/issues"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.0"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.0"
+    },
+    "keywords": ["grunt", "git", "tag", "build"]
+}
