@@ -13,7 +13,8 @@ module.exports = function (grunt) {
 
         var options = this.options({
             remote: 'origin',
-            message: this.options().tag
+            message: this.options().tag,
+            force: this.options().force,
         });
 
         grunt.util.async.series([
