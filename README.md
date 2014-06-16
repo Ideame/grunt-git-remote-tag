@@ -34,7 +34,8 @@ gitRemoteTag: {
         options: {
             tag: util.format('v.%s-%s', process.env.BUILD_NUMBER, process.env.ENVIRONMENT),
             remote: 'origin' // optional: default value is 'origin',
-            message: 'It worked!' // optional: if not provided it will use the tag as the message
+            message: 'It worked!', // optional: if not provided it will use the tag as the message,
+            force: true|false // optional: default value is false
         },
         src: './'
     }

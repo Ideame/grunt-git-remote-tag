@@ -23,7 +23,13 @@ module.exports = function (grunt) {
             },
             function (callback) {
                 grunt.log.writeln('Pushing tag \'%s\' to \'%s\' remote', options.tag, options.remote);
-                grunt.util.spawn({ cmd: 'git', args: [ 'push', options.remote, '--tags' ], opts: { cwd: repoFolder } }, callback);
+                var args = [ 'push', options.remote, '--tags' ];
+
+                if (options.force) {
+                    args.push('--force');
+                }
+
+                grunt.util.spawn({ cmd: 'git', args: args, opts: { cwd: repoFolder } }, callback);
             },
         ], done);
     });
